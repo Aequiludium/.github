@@ -1,0 +1,21 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rail" x1="110" y1="78" x2="1090" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D91A3"/><stop offset="0.5" stop-color="#3274B9"/><stop offset="1" stop-color="#B89551"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="#F7F9FC"/>
+  <path d="M110 78H1090" stroke="url(#rail)" stroke-width="2"/>
+  <path d="M1080 71L1090 78L1080 85" stroke="#B89551" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+    <g transform="translate(110 78)"><circle r="24" fill="#E3F3F3" stroke="#1D91A3" stroke-width="2"/><text y="6" fill="#0C2034" font-size="16" font-weight="700">01</text><text y="66" fill="#0C2034" font-size="16" font-weight="650">Reliable data</text><text y="91" fill="#597083" font-size="12">Point-in-time · traceable</text></g>
+    <g transform="translate(350 78)"><circle r="24" fill="#E5EFF9" stroke="#2A82B7" stroke-width="2"/><text y="6" fill="#0C2034" font-size="16" font-weight="700">02</text><text y="66" fill="#0C2034" font-size="16" font-weight="650">Structure</text><text y="91" fill="#597083" font-size="12">State · shape · persistence</text></g>
+    <g transform="translate(590 78)"><circle r="24" fill="#E7ECF8" stroke="#526FB1" stroke-width="2"/><text y="6" fill="#0C2034" font-size="16" font-weight="700">03</text><text y="66" fill="#0C2034" font-size="16" font-weight="650">Models &amp; evidence</text><text y="91" fill="#597083" font-size="12">Assumptions · validation</text></g>
+    <g transform="translate(830 78)"><circle r="24" fill="#F1EAF0" stroke="#8870A2" stroke-width="2"/><text y="6" fill="#0C2034" font-size="16" font-weight="700">04</text><text y="66" fill="#0C2034" font-size="16" font-weight="650">Risk &amp; portfolio</text><text y="91" fill="#597083" font-size="12">Explicit · constrained</text></g>
+    <g transform="translate(1070 78)"><circle r="24" fill="#F5EEDC" stroke="#B89551" stroke-width="2"/><text y="6" fill="#0C2034" font-size="16" font-weight="700">05</text><text y="66" fill="#0C2034" font-size="16" font-weight="650">Execution &amp; feedback</text><text y="91" fill="#597083" font-size="12">Observe · learn · improve</text></g>
+    <path d="M1070 193C873 239 310 239 110 193" stroke="#7B92A1" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <path d="M119 189L110 193L117 200" stroke="#7B92A1" stroke-opacity="0.65" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="590" y="231" fill="#597083" font-size="11" font-weight="600" letter-spacing="2.2">A CONTINUOUS RESEARCH LOOP</text>
+  </g>
+</svg>
+
