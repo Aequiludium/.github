@@ -1,0 +1,50 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F9FC"/>
+      <stop offset="1" stop-color="#EEF4F7"/>
+    </linearGradient>
+    <linearGradient id="line" x1="690" y1="70" x2="1110" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D91A3"/>
+      <stop offset="0.54" stop-color="#3274B9"/>
+      <stop offset="1" stop-color="#B89551"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="400" rx="22" fill="url(#bg)"/>
+  <path d="M0 325C182 268 272 376 462 310C632 251 691 103 861 88C1021 74 1099 172 1200 122V400H0V325Z" fill="#DCEAEF" fill-opacity="0.46"/>
+  <path d="M0 345C191 287 290 394 485 328C655 270 729 141 888 119C1029 100 1101 176 1200 146" stroke="#93B9C4" stroke-opacity="0.28" stroke-width="1.5"/>
+  <g opacity="0.9">
+    <path d="M702 253C736 168 829 110 931 130C1035 151 1054 253 995 301C934 351 821 338 766 287C708 233 750 160 832 116" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M733 265C773 207 842 178 913 191C986 204 1017 264 975 302C932 340 850 337 799 307C746 276 750 224 796 180" stroke="#3274B9" stroke-opacity="0.42" stroke-width="1.4"/>
+    <path d="M768 270C805 237 854 225 902 236C950 247 966 282 937 306C906 332 852 326 819 308C784 289 786 260 814 232" stroke="#1D91A3" stroke-opacity="0.5" stroke-width="1.2"/>
+    <path d="M684 228C741 248 783 233 821 197C870 151 909 88 1002 83C1070 80 1118 119 1158 171" stroke="#B89551" stroke-opacity="0.62" stroke-width="1.5"/>
+    <path d="M700 281C780 301 842 299 916 279C1002 256 1052 215 1133 215" stroke="#1D91A3" stroke-opacity="0.25" stroke-width="1.2"/>
+    <g fill="#F7F9FC" stroke-width="2">
+      <circle cx="702" cy="253" r="5" stroke="#1D91A3"/>
+      <circle cx="832" cy="116" r="5" stroke="#3274B9"/>
+      <circle cx="931" cy="130" r="5" stroke="#3274B9"/>
+      <circle cx="995" cy="301" r="5" stroke="#B89551"/>
+      <circle cx="766" cy="287" r="5" stroke="#1D91A3"/>
+      <circle cx="1158" cy="171" r="5" stroke="#B89551"/>
+    </g>
+    <circle cx="931" cy="130" r="15" fill="#3274B9" fill-opacity="0.12" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(76 74)">
+    <g transform="translate(0 4)">
+      <circle cx="29" cy="29" r="26" stroke="#0C2034" stroke-width="2"/>
+      <path d="M12 36C18 18 39 15 46 31C50 41 40 49 30 45C20 41 19 27 29 23C37 20 43 26 42 33" stroke="#1D91A3" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="12" cy="36" r="3.5" fill="#B89551"/>
+      <circle cx="42" cy="33" r="3.5" fill="#3274B9"/>
+    </g>
+    <text x="76" y="45" fill="#0C2034" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="45" font-weight="650" letter-spacing="6">AEQUILUDIUM</text>
+    <rect x="0" y="91" width="520" height="1" fill="#0C2034" fill-opacity="0.14"/>
+    <text x="0" y="136" fill="#20394F" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="500" letter-spacing="1.6">QUANTITATIVE INVESTMENT</text>
+    <text x="0" y="201" fill="#0C2034" font-family="Georgia, Times New Roman, serif" font-size="31" font-style="italic">Structure before prediction.</text>
+    <text x="0" y="244" fill="#0C2034" font-family="Georgia, Times New Roman, serif" font-size="31" font-style="italic">Correctness before performance.</text>
+    <text x="2" y="292" fill="#597083" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="600" letter-spacing="2.8">SYSTEMATIC BY DESIGN · GUANGZHOU</text>
+  </g>
+</svg>
+
